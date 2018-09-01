@@ -15,3 +15,241 @@ body {
 	unicode-bidi: embed;
 }
 */
+
+/*wrapper*/
+
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#wrapper {
+    background-image: url('assets/blog.png');
+}
+
+/*navbar*/
+.navbar-custom {
+    font-weight: bold;
+    /*background-color: #ff5500;*/
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    /*color: rgba(255, 255, 255, .8);*/
+}
+
+/* change the link color */
+/*.navbar-custom .navbar-nav .nav-link {*/
+/*color: rgba(255, 255, 255, .5);*/
+/*}*/
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #e8603c;
+}
+
+/*header*/
+#header {
+    height: auto;
+    border-bottom: solid 20px white;
+}
+
+#left-header {
+    border-right: solid 10px white;
+}
+
+#right-header {
+    border-left: solid 10px white;
+}
+
+.header-text-border {
+    border-top: 40px;
+    border-bottom: 40px;
+}
+
+/*sidebar*/
+
+.sidebar-categories {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*sections*/
+.content-qoute {
+    background: url("assets/bg-qoute.png");
+}
+
+/*footer*/
+#footer {
+    height: auto;
+    border-bottom: solid 20px white;
+}
+
+#left-footer {
+    border-right: solid 10px white;
+}
+
+#right-footer {
+    border-left: solid 10px white;
+}
+
+.footer-item {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.social-item {
+    padding-right: 5px;
+}
+
+/*colors*/
+
+.dark-orange {
+    color: #e8603c;
+}
+
+.light-orange {
+    color: #f3af9d;
+}
+
+.light-gray {
+    color: #a6a6a6;
+}
+
+.bg-dark-orange {
+    background: #e8603c;
+}
+
+.bg-dark-orange-by-transparency {
+    background: rgba(232,96,60,0.7);
+}
+.carousel-caption {
+    bottom: 30px;
+    left: 30px;
+    height: 40%;
+    width: 60%;
+}
+
+.bg-light-orange {
+    background: #f3af9d;
+}
+
+.separator {
+    background: url("assets/sep.png");
+    height: 14px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.bg-separator {
+    background: url("assets/sep.png");
+}
+
+
+div.icon {
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+    font-size: xx-large;
+    top: 50%;
+}
+
+.page-link {
+    background: #e8603c;
+    color: #ffffff;
+}
+
+.icon-gallery {
+    width: 45px;
+    height: 45px;
+    color: #e8603c;
+}
+
+/*About Page*/
+.quote-bordered {
+    border-left: solid #e8603c 10px;
+    margin-left: 30px;
+}
+
+.quote-padding {
+    padding-left: 15px;
+}
+
+.img-fluid-for-text {
+    float: left;
+    margin-right: 15px;
+}
+
+/* Contact Page */
+#map {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 40px;
+}
+
+.contact-input {
+    width: 100%;
+}
+
+.contact-textarea {
+    width: 100%;
+}
+
+/*Portfolio*/
+.navbar-custom-portfolio {
+
+}
+
+.navbar-custom-portfolio {
+    font-weight: bold;
+    /*background-color: #ff5500;*/
+}
+
+/* change the brand and text color */
+.navbar-custom-portfolio .navbar-brand,
+.navbar-custom-portfolio .navbar-text {
+    /*color: rgba(255, 255, 255, .8);*/
+}
+
+/* change the link color */
+/*.navbar-custom-portfolio .navbar-nav .nav-link {*/
+/*color: rgba(255, 255, 255, .5);*/
+/*}*/
+
+/* change the color of active or hovered links */
+.navbar-custom-portfolio .nav-item.active .nav-link,
+.navbar-custom-portfolio .nav-item:hover .nav-link {
+    background: #e8603c;
+    color: #ffffff;
+}
+
+.portfolio-item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nounderline {
+    text-decoration: none !important;
+}
+
+.card:hover {
+    opacity:0.75;
+    cursor: copy;
+}
+
+/*Portfolio_item*/
+.img-margin-bottom {
+    margin-bottom: 20px;
+}
+
+.portfolio-item-separator {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+/*Home page*/
